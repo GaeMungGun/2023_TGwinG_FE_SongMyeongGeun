@@ -35,7 +35,7 @@ def introduce():
     hobby = input("취미를 입력하세요 : ")
     university = input("재학 중인 학교를 입력하세요 : ")
     birth_date = input("생일을 입력하세요 : ")
-    introduce_myself = "제 이름은 {0}입니다. 취미는 {1}입니다. 저는 {2}를 다니고 있습니다. 제 생일은 {3}월 {4}일 입니다." .format(name, hobby, university,birth_date[3:4],birth_date[4:6])
+    introduce_myself = "제 이름은 {0}입니다. 취미는 {1}입니다. 저는 {2}를 다니고 있습니다. 제 생일은 {3}월 {4}일 입니다." .format(name, hobby, university,birth_date[2:4],birth_date[4:6])
     print(introduce_myself)
 
 # 9번
